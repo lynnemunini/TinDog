@@ -143,6 +143,33 @@ transform: rotate(0deg);
 }
 }
 
+/*Call to Action*/
+#cta{
+text-align: center;
+background-color: #ff4c68;
+padding: 10% 15%;
+}
+
+#cta h3{
+font-family: 'Montserrat', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: 900;
+color: #fff;
+}
+
+/*Footer*/
+#footer{
+text-align: center;
+}
+
+#footer i{
+margin: 2% 1%;
+}
+
+#footer p{
+color: grey;
+}
 
 
 
