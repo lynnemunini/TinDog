@@ -26,7 +26,7 @@ background-color: #ff4c68;
 }
 
 .container-fluid{
-padding: 3% 15%;
+padding: 3% 15% 9%;
 }
 
 /* Navigation bar */
@@ -60,10 +60,14 @@ margin: 5% 3% 5% 0;
 .title-image{
 width: 60%;
 transform: rotate(25deg);
+position: absolute;
+right: 30%;
 }
 
 /* Features section */
 #features{
+background-color: #fff;
+position: relative;
 text-align: center;
 padding: 7% 15%;
 }
@@ -127,6 +131,16 @@ text-align: center;
 
 .pricing-column{
 padding: 3% 2%;
+}
+
+@media(max-width: 1028px){
+#title{
+text-align: center;
+}
+.title-image{
+position: static;
+transform: rotate(0deg);
+}
 }
 
 
