@@ -1,11 +1,12 @@
 body{
 font-family: 'Montserrat', sans-serif;
+text-align: center;
 }
 
 h1 {
 font-size: 3.5rem;
 line-height: 1.5;
-font-weight: 900;
+font-weight: bold;
 color: #fff;
 }
 
@@ -21,6 +22,7 @@ font-weight: bold;
 
 #title{
 background-color: #ff4c68;
+text-align: left;
 }
 
 .container-fluid{
@@ -65,14 +67,12 @@ right: 30%;
 #features{
 background-color: #fff;
 position: relative;
-text-align: center;
 padding: 7% 15%;
 }
 
 .icon-feature{
 color: #ef8172;
 margin-bottom: 1rem;
-text-align: center;
 }
 
 .icon-feature:hover{
@@ -95,7 +95,6 @@ padding: 5%;
 
 /* Testimonials section */
 #testimonials{
-text-align: center;
 background-color: #ef8172;
 color: #fff;
 }
@@ -111,7 +110,6 @@ border-radius:100%
 
 #press{
 background-color: #ef8172;
-text-align: center;
 padding-bottom: 3%;
 }
 
@@ -123,7 +121,6 @@ margin: 20px;
 /* Pricing section */
 #pricing{
 padding: 100px;
-text-align: center;
 }
 
 .pricing-column{
@@ -143,7 +140,6 @@ transform: rotate(0deg);
 
 /*Call to Action*/
 #cta{
-text-align: center;
 background-color: #ff4c68;
 padding: 7% 15%;
 }
@@ -157,7 +153,6 @@ color: #fff;
 
 /*Footer*/
 #footer{
-text-align: center;
 padding: 7% 15%;
 
 }

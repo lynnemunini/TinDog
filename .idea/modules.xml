@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../NameCard/.idea/NameCard.iml" filepath="$PROJECT_DIR$/../NameCard/.idea/NameCard.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TinDog.iml" filepath="$PROJECT_DIR$/.idea/TinDog.iml" />
     </modules>
   </component>
