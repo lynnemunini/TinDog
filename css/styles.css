@@ -17,6 +17,10 @@ font-weight: bold;
 line-height: 1.5;
 }
 
+h3{
+font-weight: bold;
+}
+
 #title{
 background-color: #ff4c68;
 }
@@ -25,7 +29,7 @@ background-color: #ff4c68;
 padding: 3% 15%;
 }
 
-/*Navigation bar*/
+/* Navigation bar */
 
 .navbar{
 padding:0 0 4.5rem;
@@ -47,18 +51,18 @@ font-family: 'Montserrat', sans-serif;
 font-weight: light;
 }
 
-/*Download buttons*/
+/* Download buttons */
 .download-button{
 margin: 5% 3% 5% 0;
 }
 
-/*Title Image*/
+/* Title Image */
 .title-image{
 width: 60%;
 transform: rotate(25deg);
 }
 
-/*Features section*/
+/* Features section */
 #features{
 text-align: center;
 padding: 7% 15%;
@@ -88,12 +92,15 @@ color: #8f8f8f;
 padding: 5%;
 }
 
-/*Testimonials section*/
+/* Testimonials section */
 #testimonials{
-padding: 7% 15%;
 text-align: center;
 background-color: #ef8172;
 color: #fff;
+}
+
+.carousel-item{
+padding: 7% 15%;
 }
 
 .testimonial-image{
@@ -110,6 +117,16 @@ padding-bottom: 3%;
 .press-logo{
 width: 15%;
 margin: 20px;
+}
+
+/* Pricing section */
+#pricing{
+padding: 100px;
+text-align: center;
+}
+
+.pricing-column{
+padding: 3% 2%;
 }
 
 
