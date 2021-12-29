@@ -3,7 +3,6 @@ font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-font-family: 'Montserrat', sans-serif;
 font-size: 3.5rem;
 line-height: 1.5;
 font-weight: 900;
@@ -11,7 +10,6 @@ color: #fff;
 }
 
 h2{
-font-family: 'Montserrat', sans-serif;
 font-size: 3rem;
 font-weight: bold;
 line-height: 1.5;
@@ -47,7 +45,6 @@ padding: 0 18px;
 
 .nav-link{
 font-size: 1.2rem;
-font-family: 'Montserrat', sans-serif;
 font-weight: light;
 }
 
@@ -137,6 +134,7 @@ padding: 3% 2%;
 #title{
 text-align: center;
 }
+
 .title-image{
 position: static;
 transform: rotate(0deg);
@@ -147,11 +145,10 @@ transform: rotate(0deg);
 #cta{
 text-align: center;
 background-color: #ff4c68;
-padding: 10% 15%;
+padding: 7% 15%;
 }
 
 #cta h3{
-font-family: 'Montserrat', sans-serif;
 font-size: 3.5rem;
 line-height: 1.5;
 font-weight: 900;
@@ -161,10 +158,20 @@ color: #fff;
 /*Footer*/
 #footer{
 text-align: center;
+padding: 7% 15%;
+
 }
 
 #footer i{
-margin: 2% 1%;
+margin: 20px 10px;
+}
+
+#footer a{
+color: #000;
+}
+
+#footer a:hover{
+color: #ff4c68;
 }
 
 #footer p{
