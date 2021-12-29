@@ -11,11 +11,11 @@ color: #fff;
 }
 
 #title{
-background-color: #ff4c68
+background-color: #ff4c68;
 }
 
 .container-fluid{
-padding: 3% 15%
+padding: 3% 15%;
 }
 
 /*Navigation bar*/
@@ -48,8 +48,39 @@ margin: 5% 3% 5% 0;
 /*Title Image*/
 .title-image{
 width: 60%;
-transform: rotate(25deg)
+transform: rotate(25deg);
 }
+
+/*Features section*/
+#features{
+text-align: center;
+padding: 7% 15%;
+}
+
+.icon-feature{
+color: #F88379;
+font-size: 2rem;
+text-align: center;
+}
+
+.icon-feature:hover{
+color: #ff4c68;
+}
+
+#features h3{
+font-size: 1rem;
+font-weight: bold;
+}
+
+#features p{
+font-size: 1rem;
+color: #8f8f8f;
+}
+
+.feature-column{
+padding: 5%
+}
+
 
 
 
